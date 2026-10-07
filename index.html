@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Privacy Policy</title>
+  <meta name="description" content="Privacy Policy for an iOS app that does not collect any personal information." />
+  <meta name="robots" content="index,follow" />
+  <link rel="canonical" href="https://andyccr.com/Privacy-Policy/" />
+  <style>
+    :root {
+      --bg: #f6f4ef;
+      --bg-accent: #ebe6dc;
+      --ink: #1c1b19;
+      --muted: #5c574f;
+      --line: #d6d0c4;
+      --panel: rgba(255, 252, 246, 0.92);
+      --accent: #0f5c4c;
+      --accent-soft: #d8ebe5;
+      --shadow: 0 18px 50px rgba(40, 34, 24, 0.08);
+      --radius: 18px;
+      --max: 820px;
+      --font: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+      --sans: "Avenir Next", "Segoe UI", "Helvetica Neue", sans-serif;
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      color: var(--ink);
+      font-family: var(--font);
+      line-height: 1.7;
+      background:
+        radial-gradient(1200px 500px at 10% -10%, #e7f2ee 0%, transparent 55%),
+        radial-gradient(900px 420px at 100% 0%, #f0e7d8 0%, transparent 50%),
+        linear-gradient(180deg, var(--bg) 0%, var(--bg-accent) 100%);
+    }
+
+    .page {
+      width: min(var(--max), calc(100% - 2rem));
+      margin: 0 auto;
+      padding: 2.5rem 0 4rem;
+    }
+
+    header {
+      margin-bottom: 1.75rem;
+    }
+
+    .eyebrow {
+      font-family: var(--sans);
+      font-size: 0.78rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin: 0 0 0.65rem;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(2rem, 5vw, 2.8rem);
+      line-height: 1.15;
+      letter-spacing: -0.02em;
+      font-weight: 700;
+    }
+
+    .meta {
+      margin: 0.85rem 0 0;
+      color: var(--muted);
+      font-family: var(--sans);
+      font-size: 0.95rem;
+    }
+
+    .lang-bar {
+      position: sticky;
+      top: 0.75rem;
+      z-index: 10;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.45rem;
+      padding: 0.7rem;
+      margin: 1.5rem 0 1.75rem;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(10px);
+    }
+
+    .lang-bar button {
+      appearance: none;
+      border: 0;
+      background: transparent;
+      color: var(--muted);
+      font-family: var(--sans);
+      font-size: 0.86rem;
+      font-weight: 600;
+      padding: 0.45rem 0.75rem;
+      border-radius: 999px;
+      cursor: pointer;
+      transition: background 0.2s ease, color 0.2s ease, transform 0.2s ease;
+    }
+
+    .lang-bar button:hover {
+      background: var(--accent-soft);
+      color: var(--accent);
+    }
+
+    .lang-bar button[aria-pressed="true"] {
+      background: var(--accent);
+      color: #fff;
+    }
+
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: clamp(1.4rem, 3vw, 2.2rem);
+    }
+
+    .policy[hidden] { display: none; }
+
+    .policy h2 {
+      margin: 1.6rem 0 0.55rem;
+      font-size: 1.15rem;
+      line-height: 1.35;
+    }
+
+    .policy h2:first-child { margin-top: 0; }
+
+    .policy p {
+      margin: 0 0 0.85rem;
+      color: #2a2824;
+    }
+
+    .policy a {
+      color: var(--accent);
+      text-underline-offset: 0.15em;
+    }
+
+    footer {
+      margin-top: 1.75rem;
+      color: var(--muted);
+      font-family: var(--sans);
+      font-size: 0.88rem;
+    }
+
+    [dir="rtl"] .policy {
+      text-align: right;
+    }
+
+    @media (max-width: 640px) {
+      .lang-bar {
+        border-radius: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <p class="eyebrow" data-i18n-eyebrow>Privacy</p>
+      <h1 data-i18n-title>Privacy Policy</h1>
+      <p class="meta" data-i18n-meta>Effective date: October 7, 2026 · No personal data collected</p>
+    </header>
+
+    <nav class="lang-bar" aria-label="Language">
+      <button type="button" data-lang="en" aria-pressed="true">English</button>
+      <button type="button" data-lang="zh" aria-pressed="false">中文</button>
+      <button type="button" data-lang="fr" aria-pressed="false">Français</button>
+      <button type="button" data-lang="es" aria-pressed="false">Español</button>
+      <button type="button" data-lang="ru" aria-pressed="false">Русский</button>
+      <button type="button" data-lang="ar" aria-pressed="false">العربية</button>
+      <button type="button" data-lang="de" aria-pressed="false">Deutsch</button>
+      <button type="button" data-lang="it" aria-pressed="false">Italiano</button>
+    </nav>
+
+    <main class="panel">
+      <!-- English -->
+      <article class="policy" id="policy-en" lang="en" data-title="Privacy Policy" data-eyebrow="Privacy" data-meta="Effective date: October 7, 2026 · No personal data collected">
+        <h2>1. Information Collection and Use</h2>
+        <p>This application (“we”, “our”, or “us”) respects your privacy. We do not collect, store, transmit, or share any personal information, usage data, or device identifiers. All core features of this application operate completely locally on your device.</p>
+
+        <h2>2. Data Storage</h2>
+        <p>Any data created or saved within the app (such as preferences or local records) remains strictly on your device. We have no server database and no access to your data. Deleting the app will permanently erase all locally stored data.</p>
+
+        <h2>3. Third-Party SDKs</h2>
+        <p>This app does not integrate any third-party analytics, advertising, tracking, or other SDKs that collect data.</p>
+
+        <h2>4. Changes to This Policy</h2>
+        <p>We may update this Privacy Policy from time to time. Any changes will be posted on this page.</p>
+
+        <h2>5. Contact Us</h2>
+        <p>If you have any questions about this Privacy Policy, please contact us at: <a href="mailto:andytaoity@gmail.com">andytaoity@gmail.com</a>.</p>
+      </article>
+
+      <!-- Chinese -->
+      <article class="policy" id="policy-zh" lang="zh-Hans" hidden data-title="隐私政策" data-eyebrow="隐私" data-meta="生效日期：2026年10月7日 · 不收集任何个人信息">
+        <h2>1. 信息收集与使用</h2>
+        <p>本应用（以下简称“我们”）非常重视您的个人隐私。本隐私政策旨在向您说明我们如何处理您的个人信息。本应用不会收集、存储、传输或分享您的任何个人身份信息或敏感数据。应用的所有功能均在您的设备本地运行。</p>
+
+        <h2>2. 数据存储</h2>
+        <p>本应用产生的所有数据（如您的偏好设置、本地记录等）均仅保存在您的设备本地。我们无法获取、访问或存储这些数据。如果您删除应用，这些本地数据将被彻底清除。</p>
+
+        <h2>3. 第三方 SDK 与服务</h2>
+        <p>本应用未集成任何第三方数据分析、广告跟踪或包含数据收集行为的功能库（SDK）。</p>
+
+        <h2>4. 隐私政策的变更</h2>
+        <p>如果未来应用更新涉及隐私政策的变更，我们将在此页面发布最新版本。</p>
+
+        <h2>5. 联系我们</h2>
+        <p>如果您对本隐私政策有任何疑问，请通过以下方式联系我们：<a href="mailto:andytaoity@gmail.com">andytaoity@gmail.com</a>。</p>
+      </article>
+
+      <!-- French -->
+      <article class="policy" id="policy-fr" lang="fr" hidden data-title="Politique de confidentialité" data-eyebrow="Confidentialité" data-meta="Date d’entrée en vigueur : 7 octobre 2026 · Aucune donnée personnelle collectée">
+        <h2>1. Collecte et utilisation des informations</h2>
+        <p>Cette application (« nous ») respecte votre vie privée. Nous ne collectons, ne stockons, ne transmettons ni ne partageons aucune information personnelle, donnée d’utilisation ou identifiant d’appareil. Toutes les fonctionnalités principales de cette application fonctionnent entièrement en local sur votre appareil.</p>
+
+        <h2>2. Stockage des données</h2>
+        <p>Toutes les données créées ou enregistrées dans l’application (par exemple vos préférences ou enregistrements locaux) restent strictement sur votre appareil. Nous ne disposons d’aucune base de données serveur et n’avons aucun accès à vos données. La suppression de l’application efface définitivement toutes les données stockées localement.</p>
+
+        <h2>3. SDK et services tiers</h2>
+        <p>Cette application n’intègre aucun SDK tiers d’analyse, de publicité, de suivi ou tout autre SDK collectant des données.</p>
+
+        <h2>4. Modifications de la présente politique</h2>
+        <p>Nous pouvons mettre à jour cette politique de confidentialité de temps à autre. Toute modification sera publiée sur cette page.</p>
+
+        <h2>5. Nous contacter</h2>
+        <p>Si vous avez des questions concernant cette politique de confidentialité, veuillez nous contacter à : <a href="mailto:andytaoity@gmail.com">andytaoity@gmail.com</a>.</p>
+      </article>
+
+      <!-- Spanish -->
+      <article class="policy" id="policy-es" lang="es" hidden data-title="Política de privacidad" data-eyebrow="Privacidad" data-meta="Fecha de entrada en vigor: 7 de octubre de 2026 · No se recopila información personal">
+        <h2>1. Recopilación y uso de la información</h2>
+        <p>Esta aplicación («nosotros») respeta su privacidad. No recopilamos, almacenamos, transmitimos ni compartimos ninguna información personal, datos de uso ni identificadores del dispositivo. Todas las funciones principales de esta aplicación funcionan completamente de forma local en su dispositivo.</p>
+
+        <h2>2. Almacenamiento de datos</h2>
+        <p>Cualquier dato creado o guardado en la aplicación (como preferencias o registros locales) permanece estrictamente en su dispositivo. No tenemos ninguna base de datos en servidor ni acceso a sus datos. Eliminar la aplicación borrará permanentemente todos los datos almacenados localmente.</p>
+
+        <h2>3. SDK y servicios de terceros</h2>
+        <p>Esta aplicación no integra ningún SDK de terceros de análisis, publicidad, seguimiento u otros SDK que recopilen datos.</p>
+
+        <h2>4. Cambios a esta política</h2>
+        <p>Podemos actualizar esta Política de privacidad de vez en cuando. Cualquier cambio se publicará en esta página.</p>
+
+        <h2>5. Contáctenos</h2>
+        <p>Si tiene alguna pregunta sobre esta Política de privacidad, contáctenos en: <a href="mailto:andytaoity@gmail.com">andytaoity@gmail.com</a>.</p>
+      </article>
+
+      <!-- Russian -->
+      <article class="policy" id="policy-ru" lang="ru" hidden data-title="Политика конфиденциальности" data-eyebrow="Конфиденциальность" data-meta="Дата вступления в силу: 7 октября 2026 г. · Персональные данные не собираются">
+        <h2>1. Сбор и использование информации</h2>
+        <p>Это приложение («мы») уважает вашу конфиденциальность. Мы не собираем, не храним, не передаём и не раскрываем никакую персональную информацию, данные об использовании или идентификаторы устройства. Все основные функции приложения работают полностью локально на вашем устройстве.</p>
+
+        <h2>2. Хранение данных</h2>
+        <p>Любые данные, созданные или сохранённые в приложении (например, настройки или локальные записи), остаются исключительно на вашем устройстве. У нас нет серверной базы данных и нет доступа к вашим данным. Удаление приложения безвозвратно удалит все локально сохранённые данные.</p>
+
+        <h2>3. Сторонние SDK и сервисы</h2>
+        <p>Это приложение не интегрирует сторонние SDK аналитики, рекламы, отслеживания или иные SDK, собирающие данные.</p>
+
+        <h2>4. Изменения настоящей политики</h2>
+        <p>Мы можем время от времени обновлять настоящую Политику конфиденциальности. Все изменения будут опубликованы на этой странице.</p>
+
+        <h2>5. Связаться с нами</h2>
+        <p>Если у вас есть вопросы по настоящей Политике конфиденциальности, свяжитесь с нами по адресу: <a href="mailto:andytaoity@gmail.com">andytaoity@gmail.com</a>.</p>
+      </article>
+
+      <!-- Arabic -->
+      <article class="policy" id="policy-ar" lang="ar" dir="rtl" hidden data-title="سياسة الخصوصية" data-eyebrow="الخصوصية" data-meta="تاريخ السريان: 7 أكتوبر 2026 · لا يتم جمع أي معلومات شخصية">
+        <h2>1. جمع المعلومات واستخدامها</h2>
+        <p>يحترم هذا التطبيق («نحن») خصوصيتك. نحن لا نجمع أو نخزّن أو ننقل أو نشارك أي معلومات شخصية أو بيانات استخدام أو معرّفات للجهاز. تعمل جميع الميزات الأساسية لهذا التطبيق محليًا بالكامل على جهازك.</p>
+
+        <h2>2. تخزين البيانات</h2>
+        <p>تبقى أي بيانات يتم إنشاؤها أو حفظها داخل التطبيق (مثل التفضيلات أو السجلات المحلية) على جهازك فقط. ليس لدينا قاعدة بيانات على خادم ولا نستطيع الوصول إلى بياناتك. سيؤدي حذف التطبيق إلى محو جميع البيانات المخزّنة محليًا بشكل دائم.</p>
+
+        <h2>3. حزم SDK وخدمات الطرف الثالث</h2>
+        <p>لا يدمج هذا التطبيق أي حزم SDK تابعة لجهات خارجية للتحليلات أو الإعلانات أو التتبع أو أي حزم أخرى تجمع البيانات.</p>
+
+        <h2>4. التغييرات على هذه السياسة</h2>
+        <p>قد نحدّث سياسة الخصوصية هذه من وقت لآخر. سيتم نشر أي تغييرات على هذه الصفحة.</p>
+
+        <h2>5. اتصل بنا</h2>
+        <p>إذا كانت لديك أي أسئلة حول سياسة الخصوصية هذه، يرجى الاتصال بنا على: <a href="mailto:andytaoity@gmail.com">andytaoity@gmail.com</a>.</p>
+      </article>
+
+      <!-- German -->
+      <article class="policy" id="policy-de" lang="de" hidden data-title="Datenschutzerklärung" data-eyebrow="Datenschutz" data-meta="Gültig ab: 7. Oktober 2026 · Es werden keine personenbezogenen Daten erhoben">
+        <h2>1. Erhebung und Verwendung von Informationen</h2>
+        <p>Diese Anwendung („wir“) respektiert Ihre Privatsphäre. Wir erheben, speichern, übermitteln oder teilen keine personenbezogenen Daten, Nutzungsdaten oder Gerätekennungen. Alle Kernfunktionen dieser Anwendung laufen vollständig lokal auf Ihrem Gerät.</p>
+
+        <h2>2. Datenspeicherung</h2>
+        <p>Alle in der App erstellten oder gespeicherten Daten (z. B. Einstellungen oder lokale Aufzeichnungen) verbleiben ausschließlich auf Ihrem Gerät. Wir verfügen über keine Serverdatenbank und haben keinen Zugriff auf Ihre Daten. Das Löschen der App entfernt alle lokal gespeicherten Daten dauerhaft.</p>
+
+        <h2>3. Drittanbieter-SDKs</h2>
+        <p>Diese App integriert keine Drittanbieter-SDKs für Analysen, Werbung, Tracking oder sonstige datenerhebende SDKs.</p>
+
+        <h2>4. Änderungen dieser Richtlinie</h2>
+        <p>Wir können diese Datenschutzerklärung von Zeit zu Zeit aktualisieren. Änderungen werden auf dieser Seite veröffentlicht.</p>
+
+        <h2>5. Kontakt</h2>
+        <p>Wenn Sie Fragen zu dieser Datenschutzerklärung haben, kontaktieren Sie uns bitte unter: <a href="mailto:andytaoity@gmail.com">andytaoity@gmail.com</a>.</p>
+      </article>
+
+      <!-- Italian -->
+      <article class="policy" id="policy-it" lang="it" hidden data-title="Informativa sulla privacy" data-eyebrow="Privacy" data-meta="Data di entrata in vigore: 7 ottobre 2026 · Nessuna informazione personale raccolta">
+        <h2>1. Raccolta e utilizzo delle informazioni</h2>
+        <p>Questa applicazione («noi») rispetta la tua privacy. Non raccogliamo, memorizziamo, trasmettiamo né condividiamo alcuna informazione personale, dato di utilizzo o identificatore del dispositivo. Tutte le funzionalità principali di questa applicazione operano completamente in locale sul tuo dispositivo.</p>
+
+        <h2>2. Archiviazione dei dati</h2>
+        <p>Qualsiasi dato creato o salvato nell’app (come preferenze o registrazioni locali) rimane esclusivamente sul tuo dispositivo. Non disponiamo di un database server e non abbiamo accesso ai tuoi dati. L’eliminazione dell’app cancellerà definitivamente tutti i dati memorizzati in locale.</p>
+
+        <h2>3. SDK e servizi di terze parti</h2>
+        <p>Questa app non integra SDK di terze parti per analisi, pubblicità, tracciamento o altri SDK che raccolgono dati.</p>
+
+        <h2>4. Modifiche alla presente informativa</h2>
+        <p>Potremmo aggiornare di tanto in tanto questa Informativa sulla privacy. Qualsiasi modifica sarà pubblicata su questa pagina.</p>
+
+        <h2>5. Contattaci</h2>
+        <p>Per qualsiasi domanda su questa Informativa sulla privacy, contattaci all’indirizzo: <a href="mailto:andytaoity@gmail.com">andytaoity@gmail.com</a>.</p>
+      </article>
+    </main>
+
+    <footer>
+      <p>Hosted for App Store Connect and in-app Privacy Policy links · <a href="https://andyccr.com/Privacy-Policy/">https://andyccr.com/Privacy-Policy/</a></p>
+    </footer>
+  </div>
+
+  <script>
+    (function () {
+      var buttons = Array.prototype.slice.call(document.querySelectorAll(".lang-bar button"));
+      var policies = Array.prototype.slice.call(document.querySelectorAll(".policy"));
+      var titleEl = document.querySelector("[data-i18n-title]");
+      var eyebrowEl = document.querySelector("[data-i18n-eyebrow]");
+      var metaEl = document.querySelector("[data-i18n-meta]");
+      var supported = ["en", "zh", "fr", "es", "ru", "ar", "de", "it"];
+
+      function setLang(lang) {
+        if (supported.indexOf(lang) === -1) lang = "en";
+        var active = document.getElementById("policy-" + lang);
+        if (!active) return;
+
+        policies.forEach(function (el) {
+          el.hidden = el !== active;
+        });
+
+        buttons.forEach(function (btn) {
+          btn.setAttribute("aria-pressed", btn.getAttribute("data-lang") === lang ? "true" : "false");
+        });
+
+        document.documentElement.lang = lang === "zh" ? "zh-Hans" : lang;
+        document.documentElement.dir = lang === "ar" ? "rtl" : "ltr";
+        document.title = active.getAttribute("data-title") || "Privacy Policy";
+        if (titleEl) titleEl.textContent = active.getAttribute("data-title") || "";
+        if (eyebrowEl) eyebrowEl.textContent = active.getAttribute("data-eyebrow") || "";
+        if (metaEl) metaEl.textContent = active.getAttribute("data-meta") || "";
+
+        try {
+          localStorage.setItem("privacy-lang", lang);
+        } catch (e) {}
+
+        if (history.replaceState) {
+          history.replaceState(null, "", "#" + lang);
+        } else {
+          location.hash = lang;
+        }
+      }
+
+      buttons.forEach(function (btn) {
+        btn.addEventListener("click", function () {
+          setLang(btn.getAttribute("data-lang"));
+        });
+      });
+
+      var fromHash = (location.hash || "").replace("#", "").toLowerCase();
+      var fromStorage = "";
+      try { fromStorage = localStorage.getItem("privacy-lang") || ""; } catch (e) {}
+      var nav = (navigator.language || "en").toLowerCase();
+      var guessed = "en";
+      if (nav.indexOf("zh") === 0) guessed = "zh";
+      else if (nav.indexOf("fr") === 0) guessed = "fr";
+      else if (nav.indexOf("es") === 0) guessed = "es";
+      else if (nav.indexOf("ru") === 0) guessed = "ru";
+      else if (nav.indexOf("ar") === 0) guessed = "ar";
+      else if (nav.indexOf("de") === 0) guessed = "de";
+      else if (nav.indexOf("it") === 0) guessed = "it";
+
+      setLang(fromHash || fromStorage || guessed);
+    })();
+  </script>
+</body>
+</html>
