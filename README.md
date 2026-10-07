@@ -4,12 +4,14 @@ Public Privacy Policy for an iOS app that **does not collect any personal inform
 
 ## Live URL
 
-**https://andyccr.com/Privacy-Policy/**
+**https://andyccr.com/Privacy-Policy/index.html**
 
 Use this URL in:
 
 1. **App Store Connect** → App Privacy / Privacy Policy URL  
 2. **In-app** → Settings / About → Privacy Policy link  
+
+Visiting `https://andyccr.com/Privacy-Policy/` redirects to `index.html`.
 
 ## Languages
 
@@ -28,12 +30,12 @@ United Nations official languages, plus German and Italian:
 
 Deep-link examples:
 
-- https://andyccr.com/Privacy-Policy/#zh  
-- https://andyccr.com/Privacy-Policy/#de  
+- https://andyccr.com/Privacy-Policy/index.html#zh  
+- https://andyccr.com/Privacy-Policy/index.html#de  
 
 ## Contact
 
-andytaoity@gmail.com
+andyycrccrhjuswcax@gmail.com
 
 ## Notes for App Store / GDPR / CCPA
 
